@@ -1,0 +1,22 @@
+{
+    "version": "0.0.1",
+    "configurations": [        
+        {
+            "name": "Debug Lastminute Java",
+            "type": "java",
+            "request": "launch",
+            "externalConsole": true,                
+            "stopOnEntry": true,
+            "preLaunchTask": "build",                 
+            "jdkPath": "${env:JAVA_HOME}/bin",       
+            "cwd": "${workspaceRoot}",
+            "startupClass": "${workspaceRoot}${file}",
+            "sourcePath": ["${workspaceRoot}"],   
+            "classpath": ["${workspaceRoot}"],    
+            "options": [],                            
+            "args": []                                
+        }
+
+    ],
+    "compounds": []
+}
